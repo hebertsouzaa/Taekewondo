@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Hebert Souza", initial-scale="1.0">
+    <meta name="Keywords" content="Luta, lutas livres, jogos olimpicos,auto defesa,atividade fisica"/>
+    <meta name="description" content="aulas de artes marciais"/>
+    <title>Taekwondo</title>
+</head>
+<body link="#8BC34A" alink="#8BC34A" vlink="#8BC34A">
+    <img src="imagens/banner.png" alt="banner contendo o nome Taekwondo" width="100%" height="350"/>
+        <center>
+        <font face="Corbel" size="4">
+            <a href="index.html">HOME</a>
+            <a href="index.html#pag-benefícios">BENEFÍCIOS</a>
+            <a href="index.html#pag-modalidades">MODALIDADES</a>
+            <a href="index.html#pag-treinos">TREINOS</a>
+            <a href="#">AGENDAMENTOS</a></font>
+        </center>
+<hr>
+    
+        <font face="Arial Black" size="5" color="#3F51b5">
+            <h1 align="center">Agendamento </h1>  
+        </font>
+        <font >
+        <p align="center">Agende uma aula exeperimental <b>Grátis.</b></p>
+        <form name="" method="POST" action="">
+            <label for="nome">Nome:</label><br>
+          <input id="nome" type="text" name="nome_completo" size="80" placeholder="Digite seu nome" required autofocus/><br>
+            <label for="email">Email</label><br>
+            <input id="email" type="email" name="email" size="80" placeholder="email"><br>
+            <label for="senha">Senha:</label><br>
+            <input id="senha" type="password" name="senha" size="80" placeholder="somente números"><br>
+            <label for="celular">celular:</label><br>
+            <input id="celular" type="tel" name="celular" size="80" placeholder="(99)99999-9999" pattern="^\(d{2}\)\d{5}[-\s]{4}.*?$"><br>
+            <label for="date">Data:</label>
+            <input id="date" type="date" name="data">
+            <label for="hora">Hora:</label>
+            <input id="hora" type="time" name="hora">
+            <label for="aula">Aulas:</label>
+            <input id="aula" type="number" name="aulas" min="1" max="10" step="1"><br>
+            <label for="Nivel">Nivel:</label>
+            <select id="Nivel" name="nivel"><br>
+                <option value="selecionar">selecione</option>
+                <option value="basico">Basico</option>
+                <option value="iniciante">iniciante</option>
+                <option value="intermediario">Intermediario</option>
+                <option value="profissional">profissional</option>
+            </select><br>
+            <fieldset>
+                <legend>Gênero</legend>
+                <input type="radio" name="Gênero" value="M"><label>Masculino</label><br>
+                <input type="radio" name="Gênero" value="F"><label for="">Feminino</label>
+            </fieldset>
+            <fieldset>
+                <legend>atividades</legend>
+                <input id="musc" type="checkbox" name="atividade"><label for="musc">musculação</label><br>
+                <input id="liderança" type="checkbox" name="atividade"><label for="liderança">liderança</label><br>
+                <input id="auto" type="checkbox" name="atividade"><label for="auto">autodefesa</label><br>
+
+            </fieldset>
+            <label for="msg">Mensagem</label><br>
+            <textarea id="msg" cols="80" rows=""></textarea>
+        
+
+           <p><input type="submit" name="Enviar" value="AGENDAR">
+            <input type="reset" name="Cancelar" value="CANCELAR"></p>
+        
+        </form>
+        </font>
+    
+<hr>
+        <p align="center">Desenvolvido por <a href="https://www.instagram.com/hebert_undefined/" target="_blank">Hebert Souza</a> - 2020</p>   
+</body>
+</html>
